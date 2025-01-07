@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: #ECCAC8;
+    color: #333;
+    font-size: 0.7rem;
+    line-height: 1.6;
+    z-index: 1;
+
+}
+
+.principal {
+    background-color: #F15F80;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 10px 10px #00000070;
+
+
+    max-width: 1620px;
+    width: 100%;
+    height: 1080px;
+
+
+    /* Máximo da largura da imagem */
+    width: 100%;
+    max-height: 800px;
+    /* Máximo da altura da imagem */
+    min-height: auto;
+    /* Mínimo da altura, por padrão “auto” */
+    size: 100%;
+
+}
+
+.quadrado {
+    background-color: #aa978f;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    top: 15%;
+    left: 1.2%;
+    position: absolute;
+    box-shadow: 5px 5px #00000070;
+
+}
+
+.quadrado-1 {
+    background-color: #aa978f;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    left: 1.2%;
+    position: absolute;
+    box-shadow: 5px 5px #00000070;
+
+}
+
+.quadrado-2 {
+    background-color: #aa978f;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    top: 75%;
+    left: 1.2%;
+    position: absolute;
+    box-shadow: 5px 5px #00000070;
+
+}
+
+.quad {
+    background-color: #aa978f;
+
+    width: 50px;
+    height: 25px;
+    top: 25%;
+    left: -80%;
+    position: absolute;
+}
+
+.quad1 {
+    background-color: #aa978f;
+
+    width: 50px;
+    height: 25px;
+    top: 25%;
+    left: -80%;
+    position: absolute;
+}
+
+.quad2 {
+    background-color: #aa978f;
+
+    width: 50px;
+    height: 25px;
+    top: 25%;
+    left: -80%;
+    position: absolute;
+}
+
+.img-prin {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 3.4%;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.img-prin3 {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.feliz {
+    color: #ff0055;
+    font-family: "Mochiy Pop One", serif;
+    top: 32%;
+    left: 52%;
+    position: absolute;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px #ffffff;
+    transition: all 0.3s ease;
+}
+
+.feliz:hover {
+    color: #F15F80;
+    ;
+    font-family: "Mochiy Pop One", serif;
+    top: 32%;
+    left: 52%;
+    position: absolute;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
+
+.css-button-rounded--red {
+    min-width: 130px;
+    height: 40px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #DE1B43;
+    background: #DE1B43;
+    top: 50%;
+    left: 50%;
+}
+
+.css-button-rounded--red:hover {
+    background: #e2d6d6;
+    border: 2px solid #F15F80;
+    color: #F15F80;
+}
+
+
+
+
+
+/*Pagina texto.html */
+
+.img-prin2 {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 3.4%;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    transform: rotate(-45deg);
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ } 
+
+.css-button-rounded--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #DE1B43;
+    background: #DE1B43;
+    top: 50%;
+    left: 50%;
+}
+
+.css-button-rounded--blue:hover {
+    background: #e2d6d6;
+    border: 2px solid #F15F80;
+    color: #F15F80;
+}
+
+
+.css-button-rounded--green {
+    min-width: 130px;
+    height: 40px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #DE1B43;
+    background: #DE1B43;
+    top: 92%;
+    left: 50%;
+}
+
+
+  .container {
+    width: 210px;
+    height: 140px;
+    left:30em;
+    position: relative;
+    perspective: 1000px;
+  }
+
+.texto {
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+
+    justify-content: flex-start;
+    display: flex;
+    height: 600px;
+    width: 600px;
+    top: 20%;
+    left: 62%;
+    position: absolute;
+}
+
+.texto-p {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+
+.texto-p1 {
+    margin: 0 20px 0 0;
+    font-size: 20px;
+}
+
+
+
+
+
+/*carrosel de imagem*/
+
+.img1 {
+    position: absolute;
+    top: 55%;
+    left: 62%;
+    box-shadow: 5px 5px #00000070;
+    border-radius: 20px;
+}
+
+.img2 {
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    box-shadow: 5px 5px #00000070;
+    border-radius: 20px;
+}
+
+.img3 {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    box-shadow: 5px 5px #00000070;
+    border-radius: 20px;
+}
+
+.img4 {
+    position: absolute;
+    top: 80%;
+    left: 62%;
+    box-shadow: 5px 5px #00000070;
+    border-radius: 10px;
+}
+
+.img5 {
+    position: absolute;
+    top: 55%;
+    left: 88%;
+    box-shadow: 5px 5px #00000070;
+    border-radius: 10px;
+}
+
+.img6 {
+    position: absolute;
+    top: 80%;
+    left: 83%;
+    box-shadow: 5px 5px #00000070;
+    border-radius: 10px;
+}
+
+#over:hover {
+    box-shadow: 5px 5px #ff009d70;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 0.9s;
+}
+
+
+#txt-animado span {
+position: relative;
+}
+
+#txt-animado span::before {
+    content: "";
+    color:#FFC0CB;
+    animation: palavras 18s infinite;
+}
+
+#txt-animado span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px  solid #FFC0CB;
+    right: -10px;
+    animation: cursor .7s infinite, digita 18s steps(15) infinite;
+    width: calc(100% + 15px);
+    background-color: #F15F80;
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 15px);
+    }
+}
+
+@keyframes cursor {
+    0% {
+        border-left: 2px  solid #F15F80;
+    }
+}
+
+@keyframes palavras {
+    0%,20%{
+        content: "Feliz 1 ano de Namoro <3"
+    }
+    21%, 40%{
+        content: "Que esse ano seja incrivel"
+    }
+    41%, 60%{
+        content: "E que venham muitos mais"
+    }
+    61%, 80%{
+        content: "Te amo muito <3"
+    }
+    81%, 100%{
+        content: "06/01/2024 - 06/01/2025"
+    }   
+
+    
+    
+}
+/*---------------------------------------------------------*/
+
+
+@keyframes scale{
+    from{
+      transform: scale(1) rotate(-45deg)
+    }
+    12.5%{
+      transform: scale(1.2) rotate(-45deg)
+    }
+    25%{
+      transform: scale(1) rotate(-45deg)
+    }
+    37.5%{
+    transform: scale(1.2) rotate(-45deg)
+    }
+    50%{
+      transform: scale(1) rotate(-45deg)
+    }
+    100%{
+      transform: scale(1) rotate(-45deg)
+    }
+  }
+  
+  .w{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+    transform: rotate(-45deg);
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    margin: auto;
+    margin-top: 200px;
+    z-index: 1;
+    position: relative;
+    top: 40%;
+    left: 25%;
+  }
+  .w::before,
+  .w::after{
+    display: block;
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: pink;
+    position: relative;
+  }
+  .w::before{
+    top: -50px;
+  }
+  .w::after{
+  
+    left: 50px;
+    top: -100px;
+  }  
+
+
+  
